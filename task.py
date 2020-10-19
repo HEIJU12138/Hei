@@ -21,7 +21,7 @@ def div_and_write(L):
      d = (m1 + m2) / 2
      f.write('{}  min:{}  min:{}  length:{} \n'.format(count, m1, m2, len(L3)))  
      # perhaps you can remove the min, max, length, then you do not need to put your code in a data frame
-     # does the "write" function allow for separators such as \t, if yes, then maybe you have something like count \t m1 \m2
+     # does the "write" function allow for separators such as \t, if yes, then maybe you can have something like count \t m1 \t m2
      count +=1
      # if length>5, the divide into two parts
      if len(L3) > 5:
